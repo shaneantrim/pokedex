@@ -67,7 +67,8 @@ class MainWindow(QtWidgets.QDialog):
       
         self.imageLabel.setPixmap(QPixmap(image))
         self.imageLabel.show()
-
+        self.button.setText("Search")
+        self.button.setEnabled(True)
         
         
 
